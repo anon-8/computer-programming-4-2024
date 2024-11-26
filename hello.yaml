@@ -1,0 +1,12 @@
+Panel: https://jkanclerz-edu.signin.aws.amazon.com/console/
+User: 226070
+Password: megabrass43!
+
+name: Hello World
+on: [push]
+jobs:
+	Hello-world:
+		runs-on: ubuntu-latest
+		steps:
+			- name "My first command"
+        run: echo "Kuba
